@@ -31,6 +31,7 @@ namespace BookShopApp.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category created succesfully";
                 return RedirectToAction("Index", "Category");
             }
             //else
@@ -64,6 +65,7 @@ namespace BookShopApp.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category Edited succesfully";
                 return RedirectToAction("Index", "Category");
             }
             //else
@@ -100,7 +102,8 @@ namespace BookShopApp.Controllers
             
                 _db.Categories.Remove(categoryForDelete);
                 _db.SaveChanges();
-                return RedirectToAction("Index", "Category");
+                TempData["success"] = "Category Deleted succesfully";
+            return RedirectToAction("Index", "Category");
             
             //else
             //{
