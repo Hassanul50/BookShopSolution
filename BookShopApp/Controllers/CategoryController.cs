@@ -1,8 +1,8 @@
-﻿using BookShopApp.Data;
+﻿using BookShop.DataAccess.Data;
 using BookShopApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookShopApp.Controllers
+namespace BookShop.DataAccess.Controllers
 {
     public class CategoryController : Controller
     {
