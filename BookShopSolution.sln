@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShopApp", "BookShopApp\BookShopApp.csproj", "{E69318B9-4D02-4D40-9976-81D779A3825E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop_temp", "BookShop_temp\BookShop_temp.csproj", "{E0B54B9F-0BBF-4787-932E-DEF73B46FC76}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.DataAccess", "BookShop.DataAccess\BookShop.DataAccess.csproj", "{70F017EC-C367-4492-BDAE-56EB5EE09556}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "BookShop.Models\BookShop.Models.csproj", "{84CDC452-F748-4BD7-81D2-1B9C1B897F19}"
@@ -23,10 +21,6 @@ Global
 		{E69318B9-4D02-4D40-9976-81D779A3825E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69318B9-4D02-4D40-9976-81D779A3825E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69318B9-4D02-4D40-9976-81D779A3825E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0B54B9F-0BBF-4787-932E-DEF73B46FC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0B54B9F-0BBF-4787-932E-DEF73B46FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0B54B9F-0BBF-4787-932E-DEF73B46FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0B54B9F-0BBF-4787-932E-DEF73B46FC76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{70F017EC-C367-4492-BDAE-56EB5EE09556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{70F017EC-C367-4492-BDAE-56EB5EE09556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F017EC-C367-4492-BDAE-56EB5EE09556}.Release|Any CPU.ActiveCfg = Release|Any CPU
