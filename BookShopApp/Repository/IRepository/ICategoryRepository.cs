@@ -1,4 +1,5 @@
-﻿using BookShopApp.Models;
+﻿using BookShop.Models;
+using BookShop.Models.Models;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace BookShopApp.Repository.IRepository
